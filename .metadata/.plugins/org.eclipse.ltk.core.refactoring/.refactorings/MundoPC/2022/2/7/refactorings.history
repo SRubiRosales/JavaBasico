@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;idRaton&apos; in &apos;mx.com.citi.mundopc.Teclado&apos; to &apos;idTeclado&apos;&#x0D;&#x0A;- Original project: &apos;MundoPC&apos;&#x0D;&#x0A;- Original element: &apos;mx.com.citi.mundopc.Teclado.idRaton&apos;&#x0D;&#x0A;- Renamed element: &apos;mx.com.citi.mundopc.Teclado.idTeclado&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;idRaton&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;mx.com.citi.mundopc{Teclado.java[Teclado^idRaton" name="idTeclado" references="true" setter="false" stamp="1644251537041" textual="false" version="1.0"/>
+</session>

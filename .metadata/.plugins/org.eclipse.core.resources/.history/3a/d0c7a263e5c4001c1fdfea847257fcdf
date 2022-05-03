@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejercicio Formulario</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="resources/styles.css">
+		<script type="text/javascript" src="resources/functions.js"></script>
+	</head>
+	<body>
+		<h2>Formulario Servlet</h2>
+		<form name="form1" action="servlet" method="POST" onSubmit="return validarForma(this)"><!-- El formulario responde al servlet del action -->
+			<input type="hidden" name="oculto" value="valorOculto">
+			
+		</form>
+	</body>
+</html>

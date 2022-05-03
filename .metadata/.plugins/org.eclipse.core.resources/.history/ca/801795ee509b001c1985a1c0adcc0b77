@@ -1,0 +1,53 @@
+/**
+ * 
+ */
+package mx.com.gm.peliculas.servicio;
+
+import mx.com.gm.peliculas.datos.AccesoDatosImpl;
+import mx.com.gm.peliculas.datos.IAccesoDatos;
+import mx.com.gm.peliculas.domain.Pelicula;
+import mx.com.gm.peliculas.excepciones.AccesoDatosEx;
+
+/**
+ * @author srosales
+ *
+ */
+public class CatalogoPeliculasImpl implements ICatalogoPeliculas{
+	
+	private final IAccesoDatos datos;
+	
+	CatalogoPeliculasImpl(){
+		this.datos = new AccesoDatosImpl();//Especifica el tipo de implementacion de la interface
+	}
+
+	@Override
+	public void agregarPelicula(String nombrePelicula) {
+		Pelicula pelicula = new Pelicula(nombrePelicula);
+		boolean anexar = false;
+		try {
+			anexar = datos.existe(NOMBRE_RECURSO);//Pregunta si existe el recurso
+			datos.escribir(pelicula, nombrePelicula, anexar);
+		} catch (AccesoDatosEx e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void listarPeliculas() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buscarPelicula(String buscar) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void iniciarCatalogoPeliculas() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

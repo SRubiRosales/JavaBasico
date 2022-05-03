@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+package web;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+/**
+ * @author srosales
+ *
+ */
+@WebServlet("/servlet")
+public class Servlet extends HttpServlet {
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		//Leer parametros del form
+		String user = request.getParameter("user");//Recupera el valor del input "user"
+		String pass = request.getParameter("password");
+		System.out.println("Usuario: " + user);
+		System.out.println("Password: " + pass);
+		PrintWriter out = response.getWriter();
+		out.println("<html>");
+		out.println("<body>");
+		out.println("<h2>El parametro usuario es " + user + "</h2>");
+		out.println("<br>");
+		out.println("<h2>El parametro usuario es " + pass + "</h2>");
+		out.println("</body>");
+		out.println("</html>");
+	}
+
+}

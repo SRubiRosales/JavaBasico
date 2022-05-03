@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package mx.com.gm.peliculas.servicio;
+
+/**
+ * @author srosales
+ *
+ */
+public class CatalogoPeliculasImpl implements ICatalogoPeliculas{
+
+	@Override
+	public void agregarPelicula(String nombrePelicula) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void listarPeliculas() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buscarPelicula(String buscar) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void iniciarCatalogoPeliculas() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

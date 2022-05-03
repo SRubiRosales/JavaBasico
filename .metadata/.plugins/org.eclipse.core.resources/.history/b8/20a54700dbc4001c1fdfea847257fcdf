@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package web;
+
+import jakarta.servlet.http.HttpServlet;
+
+/**
+ * @author srosales
+ *
+ */
+@WebServlet("/servlet")
+public class Servlet extends HttpServlet{
+
+}

@@ -1,0 +1,44 @@
+/**
+ * 
+ */
+package mx.com.gm.peliculas.servicio;
+
+import mx.com.gm.peliculas.datos.AccesoDatosImpl;
+import mx.com.gm.peliculas.datos.IAccesoDatos;
+
+/**
+ * @author srosales
+ *
+ */
+public class CatalogoPeliculasImpl implements ICatalogoPeliculas{
+	
+	private final IAccesoDatos datos;
+	
+	CatalogoPeliculasImpl(){
+		this.datos = new AccesoDatosImpl();//Especifica el tipo de implementacion de la interface
+	}
+
+	@Override
+	public void agregarPelicula(String nombrePelicula) {
+		//datos
+	}
+
+	@Override
+	public void listarPeliculas() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buscarPelicula(String buscar) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void iniciarCatalogoPeliculas() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package mx.com.gm.peliculas.datos;
+
+import mx.com.gm.peliculas.excepciones.AccesoDatosEx;
+
+/**
+ * @author srosales
+ *
+ */
+public interface AccesoDatos {
+	boolean existe(String nombreRecurso) throws AccesoDatosEx;
+}

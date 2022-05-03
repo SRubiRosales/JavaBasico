@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package web;
+
+import javax.servlet.http.HttpServlet;
+
+/**
+ * @author srosales
+ *
+ */
+public class HolaMundo extends HttpServlet{
+
+}

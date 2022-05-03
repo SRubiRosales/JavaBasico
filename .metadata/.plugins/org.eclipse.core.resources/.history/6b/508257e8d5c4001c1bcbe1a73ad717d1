@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package web;
+
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+
+/**
+ * @author srosales
+ *
+ */
+@WebServlet("/servlet")
+public class Servlet extends HttpServlet {
+
+}

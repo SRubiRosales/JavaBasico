@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario Servlet</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<h2>Formulario Servlet</h2>
+		<form name="form1" action="/Servlet" method="POST"><!-- El formulario responde al servlet del action -->
+			User: <input type="text" name="usuario"/>
+			<br>
+			Password <input type="password" name="password"/>
+			<input type="submit" value="Send"/>
+		</form>
+	</body>
+</html>

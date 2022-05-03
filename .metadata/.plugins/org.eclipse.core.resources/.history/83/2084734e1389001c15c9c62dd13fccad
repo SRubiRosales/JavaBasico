@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package test;
+
+import paquete1.Clase1;
+
+/**
+ * @author srosales
+ *
+ */
+public class TestModificadoresAcceso {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Clase1 clase1 = new Clase1();//Puede usarse porque es una clase publica
+		System.out.println(clase1);
+		System.out.println("Clase 1\t" + clase1.atributoPublico);//Accede al atributo publico
+	}
+
+}

@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package web;
+
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+/**
+ * @author srosales
+ *
+ */
+@WebServlet("/servlet")
+public class Servlet extends HttpServlet {
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) {
+		
+	}
+
+}

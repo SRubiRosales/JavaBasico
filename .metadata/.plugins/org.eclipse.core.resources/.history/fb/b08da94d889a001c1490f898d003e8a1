@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package mx.com.gm.peliculas.domain;
+
+/**
+ * @author srosales
+ *
+ */
+public class Pelicula {
+
+}

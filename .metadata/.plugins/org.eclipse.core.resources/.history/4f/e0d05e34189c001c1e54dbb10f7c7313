@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package mx.com.gm.peliculas.presentacion;
+
+import java.util.Scanner;
+
+import mx.com.gm.peliculas.servicio.CatalogoPeliculasImpl;
+import mx.com.gm.peliculas.servicio.ICatalogoPeliculas;
+
+/**
+ * @author srosales
+ *
+ */
+public class CatalogoPeliculasPresentacion {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int opcion = -1;
+		Scanner scanner = new Scanner(System.in);
+		ICatalogoPeliculas catalogo = new CatalogoPeliculasImpl();//No se comunica con la capa de datos, solo con la de negocio
+		while(opcion != 0) {//Se repite mientras el usuario no oprima 0
+			System.out.println("Elige una opcion:\n"
+					+ "1. Iniciar catalogo de peliculas\n"
+					+ "2. Agregar pelicula\n"
+					+ "3. Listar peliculas\n"
+					+ "4. Buscar pelicula\n"
+					+ "0. Salir");
+			opcion = Integer.parseInt(scanner.nextLine());
+		}
+	}
+
+}

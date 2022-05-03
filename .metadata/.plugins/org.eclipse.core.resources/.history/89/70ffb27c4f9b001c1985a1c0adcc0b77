@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package mx.com.gm.peliculas.servicio;
+
+/**
+ * @author srosales
+ *
+ */
+public interface ICatalogoPeliculas {
+	String NOMBRE_RECURSO = "peliculas.txt";//Constante
+	void agregarPelicula(String nombrePelicula);
+}

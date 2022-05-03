@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\srosales\Desktop\Workspaces\Udemy-CursoJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1129113958.index
+\HolaMundoServlets\src\main\java
+C:\Users\srosales\Desktop\Workspaces\Udemy-CursoJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3901207039.index
+\ManejoParametros\src\main\java
+C:\Users\srosales\Desktop\Workspaces\Udemy-CursoJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4223924428.index
+\ManejoFormulariosHTML\src\main\java

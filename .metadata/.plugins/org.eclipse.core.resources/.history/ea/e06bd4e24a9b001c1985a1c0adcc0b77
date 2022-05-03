@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package mx.com.gm.peliculas.datos;
+
+/**
+ * @author srosales
+ *
+ */
+public class AccesoDatosImpl implements IAccesoDatos{
+
+}

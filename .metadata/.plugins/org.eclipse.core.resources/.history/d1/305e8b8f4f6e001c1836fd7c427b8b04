@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package domain;
+
+/**
+ * @author srosales
+ *
+ */
+public class Empleado extends Persona {//Herencia simple de la clase Persona
+	
+}
